@@ -1,9 +1,10 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite the accompanying paper and the DOI assigned to this release by Zenodo."
+message: "If you use this software, please cite the accompanying paper and this archived release."
 title: "MOZOA for the Multi-Objective Time-Dependent Green Vehicle Routing Problem"
 type: software
 version: 1.0.1
 date-released: 2026-08-30
+doi: 10.5281/zenodo.22172120
 authors:
   - family-names: Ghatei
     given-names: Sajjad
@@ -15,7 +16,7 @@ authors:
     given-names: Shiva
 license: MIT
 repository-code: "https://github.com/sghatei-web/MOZOA-MOTDGVRP"
-url: "https://github.com/sghatei-web/MOZOA-MOTDGVRP/releases"
+url: "https://doi.org/10.5281/zenodo.22172120"
 abstract: >-
   MATLAB implementation of a Multi-Operator Zebra Optimization Algorithm
   with Pareto archiving for the multi-objective time-dependent green vehicle
