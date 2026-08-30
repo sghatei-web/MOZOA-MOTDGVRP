@@ -69,16 +69,7 @@ for ii = 1:numel(cfg.instances)
             ii, numel(cfg.instances), prob.name, prob.n);
     end
 
-    % ---- Pass 1: run every algorithm once per seed WITHOUT a reference
-    %      point (not needed yet) just to collect final objectives and
-    %      build a shared reference point, exactly mirroring how the main
-    %      paper experiments build their shared HV reference point ----
-    % (MOZOA's own solver always returns a self-consistent refPoint from
-    % its initial population; competitors need one supplied. To keep this
-    % efficient we do a single combined pass: run MOZOA first per seed
-    % [cheap], pool with a quick low-cost probe of each competitor's
-    % initial population objective range, then run everyone for real with
-    % the finalised shared reference point.)
+   
     pool = [];
     for r = 1:cfg.numRuns
         moz = solveZOA8opAblation(prob, struct('popSize',cfg.popSize, ...
