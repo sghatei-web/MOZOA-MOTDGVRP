@@ -133,8 +133,14 @@ directory passed through `instancesDir`.
 
 ## Citation
 
-Please cite the accompanying paper and the archived Zenodo release. The final
-Zenodo DOI will be added here after the first public release is deposited.
+Please cite the accompanying paper and the archived Zenodo release:
+
+> Ghatei, S., Kusetogullari, H., Arasteh, B., & TaghipourEivazi, S. (2026).
+> *MOZOA for the Multi-Objective Time-Dependent Green Vehicle Routing Problem*
+> (Version 1.0.0) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.22170033
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22170033.svg)](https://doi.org/10.5281/zenodo.22170033)
 
 ## License
 
