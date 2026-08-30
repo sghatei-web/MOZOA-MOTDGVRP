@@ -1,0 +1,14 @@
+*.asv
+*.m~
+*.bak
+*.tmp
+*.log
+*.mat
+*.xlsx
+run30mozoa_checkpoint_*.mat
+mozoa_paper_results_*.mat
+mozoa_paper_results_*.xlsx
+mozoa_paper_allresults.mat
+mozoa_paper_allresults.xlsx
+__pycache__/
+.DS_Store
