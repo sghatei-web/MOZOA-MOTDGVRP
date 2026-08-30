@@ -136,10 +136,14 @@ and attribution instructions are provided in
 
 ## Citation
 
-Please cite the accompanying paper and the DOI assigned by Zenodo to the
-specific tagged release used in your study. Archived releases are listed on
-the [GitHub Releases page](https://github.com/sghatei-web/MOZOA-MOTDGVRP/releases)
-and each release links to its permanent Zenodo DOI.
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22172120.svg)](https://doi.org/10.5281/zenodo.22172120)
+
+Please cite the accompanying paper and the archived software release:
+
+> Ghatei, S., Kusetogullari, H., Arasteh, B., & TaghipourEivazi, S. (2026).
+> *MOZOA for the Multi-Objective Time-Dependent Green Vehicle Routing Problem*
+> (Version v1.0.1) [Computer software]. Zenodo.
+> https://doi.org/10.5281/zenodo.22172120
 
 ## License
 
