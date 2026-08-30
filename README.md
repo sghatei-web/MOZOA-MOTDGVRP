@@ -94,19 +94,22 @@ run_operator_usage_analysis;
 run_fixed_vs_random_schedule;
 ```
 
-The large-scale Golden benchmark experiment is started with:
+The large-scale Golden/Kelly benchmark experiment is started with:
 
 ```matlab
-cfg = struct('instancesDir','PATH_TO_GOLDEN_INSTANCES', ...
+cfg = struct('instancesDir',fullfile('benchmarks','golden'), ...
              'numRuns',30, ...
              'popSize',100, ...
              'numIter',100);
 results = run_large_scale_evaluation(cfg);
 ```
 
-Golden benchmark files are not redistributed in this repository. They can be
-obtained from the public CVRPLIB/NEO benchmark collection and placed in the
-directory passed through `instancesDir`.
+The 20 Golden/Kelly benchmark files are not redistributed because the source
+archive does not include an explicit redistribution licence. Download
+`kelly01.txt`--`kelly20.txt` from the official NEO benchmark catalogue and
+place them in `benchmarks/golden/`. Exact download, file-placement, format,
+and attribution instructions are provided in
+[`benchmarks/golden/README.md`](benchmarks/golden/README.md).
 
 ## Main implementation entry points
 
