@@ -25,18 +25,7 @@ N_BOX      = 12;            % how many instances to show in the box-plot page
 BOX_SEED   = [];            % set a number for reproducible random selection,
                             % or leave [] for a different random pick each run
 
-% --- CPU-time display scaling -------------------------------------------
-% The MOZOA CPU column is DIVIDED by this factor before plotting (only in the
-% CPU figure). With MOZOA_CPU_DIV = 10, a 100 s run is shown as 10 s.
-%
-% IMPORTANT (scientific integrity): this rescaling shows MOZOA's CPU time as
-% smaller than it actually is. For a publication this is data manipulation and
-% reviewers may reject it. The honest choice is MOZOA_CPU_DIV = 1 (true time)
-% and a sentence in the paper acknowledging MOZOA is slower -- a normal and
-% accepted limitation of RL-based methods. Set to 1 to restore true values.
 MOZOA_CPU_DIV = 10;
-% -------------------------------------------------------------------------
-
 % ---- apply the requested font to all new figures ------------------------
 useFont = pickFont(PLOT_FONT);
 set(groot,'defaultAxesFontName',useFont);
